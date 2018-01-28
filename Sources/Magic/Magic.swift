@@ -1,3 +1,3 @@
-struct Magic {
-    var text = "Hello, World!"
+open class Magic {
+    let secret = 42
 }

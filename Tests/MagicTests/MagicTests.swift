@@ -3,14 +3,11 @@ import XCTest
 
 class MagicTests: XCTestCase {
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(Magic().text, "Hello, World!")
+        let m = Magic()
+        XCTAssertEqual(m.secret, 42)
     }
-
-
+    
     static var allTests = [
         ("testExample", testExample),
-    ]
+        ]
 }
