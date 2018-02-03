@@ -1,9 +1,3 @@
-//
-//  Magic.swift
-//
-//  glenn_golden@apple.com
-//
-
 open class Magic: MagicGenerator {
     let secret = 42
     
